@@ -14,7 +14,9 @@ h1 {
     line-height: 1.5;
     font-weight: 900;
 }
-
+p{
+    color: #8f8f8f;
+}
 /* Navigation Bar */
 .navbar{
     padding-bottom: 4.5rem;
@@ -50,6 +52,9 @@ h1 {
     padding: 7% 15%;
     margin: 0 auto;
 }
+.feature-box{
+    padding: 3%;
+}
 h3{
     font-family: "Montserrat";
     font-size: 1.5rem;
@@ -59,6 +64,6 @@ h3{
     color: #ef8172;
     margin-bottom: 25px;   
 }
-:hover.feature-icon{
+.feature-icon:hover{
     color: #ff4c68;
 }
